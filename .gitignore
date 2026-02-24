@@ -92,6 +92,7 @@ agent_runs/
 *.temp
 .DS_Store
 Thumbs.db
+*.whl
 
 *.schema.graphql
 schema.graphql
