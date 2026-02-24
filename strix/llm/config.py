@@ -27,4 +27,4 @@ class LLMConfig:
 
         self.timeout = timeout or int(Config.get("llm_timeout") or "300")
 
-        self.scan_mode = scan_mode if scan_mode in ["quick", "standard", "deep"] else "deep"
+        self.scan_mode = scan_mode if scan_mode in ["quick", "standard", "deep", "owasp", "compliance"] else "deep"
