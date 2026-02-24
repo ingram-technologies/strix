@@ -97,6 +97,7 @@ class LLM:
             result = env.get_template("system_prompt.jinja").render(
                 get_tools_prompt=get_tools_prompt,
                 loaded_skill_names=list(skill_content.keys()),
+                scan_mode=self.config.scan_mode,
                 **skill_content,
             )
             return str(result)
