@@ -79,7 +79,6 @@ logs/
 tensorboard/
 
 # Agent execution traces
-strix_runs/
 agent_runs/
 
 # Misc
@@ -92,6 +91,7 @@ agent_runs/
 *.temp
 .DS_Store
 Thumbs.db
+*.whl
 
 *.schema.graphql
 schema.graphql
